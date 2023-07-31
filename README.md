@@ -1,5 +1,5 @@
 # autohotkey
-Autohotkey .ahk v2 
+Autohotkey .ahk v2 code simple code examples
 
 v2_A_Cursor ;   Report cursor type when you click the mouse working code
 
