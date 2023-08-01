@@ -9,6 +9,8 @@ v2_if.ahk ;    IF working code
 
 v2_inputhook.ahk ;   inputhook working code
 
+v2_keyboard history ;  keyhistory working code
+
 v2_msgbox_timeout.ahk ;  msgbox closes in 2 seconds working code
 
 v2_sort.ahk ;  sort working code
