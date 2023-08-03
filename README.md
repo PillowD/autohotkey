@@ -7,6 +7,8 @@ v2_Format ;   Format working code
 
 v2_if.ahk ;    IF working code
 
+v2_inline_ini.ahk ;   save ini vales inside the script
+
 v2_inputhook.ahk ;   inputhook working code
 
 v2_keyboard history ;  keyhistory working code
