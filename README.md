@@ -13,6 +13,8 @@ v2_inputhook.ahk ;   inputhook working code
 
 v2_keyboard history ;  keyhistory working code
 
+v2_macropad.ahk ;   turn an external 10key pad into a macropad 
+
 v2_msgbox_timeout.ahk ;  msgbox closes in 2 seconds working code
 
 v2_sort.ahk ;  sort working code
