@@ -30,7 +30,9 @@ of a calculator, volume control or other non-standard key.
 
 I used this keypad from Amazon: https://www.amazon.com/Wireless-RaceGT-Ultra-Silent-Rechargeable-Notebook/dp/B09ZJWKBVW
 
-When plug it in and it is working, run any ahk script that doesn't end.
+To see what key you need to use for the trigger:
+
+When you plug it in and it is working, run any ahk script that doesn't end.
 Right click on the ahk icon in the system tray and click open
 Click on View > Keyhistory and script info
 Press keys on the keypad while pressing F5 on the keyboard to see which buttons
