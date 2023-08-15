@@ -11,7 +11,6 @@ concat_any_number_of_words(word*) {
 }
 MsgBox concat_any_number_of_words("Hello ", "there. ",),,"T2"
 MsgBox concat_any_number_of_words("Hello ", "there, ", "General ","Grievous. "),,"T2"
-;concat_any_number_of_words
 
 Esc::ExitApp
 ExitApp
