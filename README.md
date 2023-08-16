@@ -7,11 +7,13 @@ v2_Format ;   Format working code
 
 v2_if.ahk ;    IF working code
 
-v2_inline_ini.ahk ;   save ini values inside the script
+v2_inline_ini.ahk ;   save ini values inside the script working code
 
 v2_inputhook.ahk ;   inputhook working code
 
 v2_keyboard history ;  keyhistory working code
+
+v2_loop_parse_text.ahk ; use loop parst on a sample text working code
 
 v2_macropad.ahk ;   turn an external 10key pad into a macropad working code
 
@@ -19,6 +21,6 @@ v2_msgbox_timeout.ahk ;  msgbox closes in 2 seconds working code
 
 v2_sort.ahk ;  sort working code
 
-v2_tabbing_for_acceleration_keys.ahk ;  TIC + Numpad Number to tab that number of times
+v2_tabbing_for_acceleration_keys.ahk ;  TIC + Numpad Number to tab that number of times working code
 
-v2_variadic_function_concatenate_words.ahk ;  function without a fixt number of paramters
+v2_variadic_function_concatenate_words.ahk ;  function without a fixt number of paramters working code
