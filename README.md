@@ -23,4 +23,4 @@ v2_sort.ahk ;  sort working code
 
 v2_tabbing_for_acceleration_keys.ahk ;  TIC + Numpad Number to tab that number of times working code
 
-v2_variadic_function_concatenate_words.ahk ;  function without a fixt number of paramters working code
+v2_variadic_function_concatenate_words.ahk ;  function without a fixed number of parameters working code
