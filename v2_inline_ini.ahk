@@ -4,7 +4,7 @@
 ;============================== Start Auto-Execution Section ==============================
 ;   When the script starts, it reads the counter key of the SavedVariables section
 ;   stored in this script. This helps "remember" the value of counter.
-;
+;    A_ScriptFullPath watch out for OneDrive in it, it won't work.
 ;============================== Main Script ==============================
 {
 ;   counter is stored in comment below.  It increments whenever the script is run.  
