@@ -13,7 +13,7 @@ v2_inputhook.ahk ;   inputhook working code
 
 v2_keyboard history ;  keyhistory working code
 
-v2_loop_parse_text.ahk ; use loop parst on a sample text working code
+v2_loop_parse_text.ahk ; use loop parse on a sample text working code
 
 v2_macropad.ahk ;   turn an external 10key pad into a macropad working code
 
