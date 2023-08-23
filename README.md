@@ -1,6 +1,8 @@
 # autohotkey
 Autohotkey .ahk v2 simple code examples
 
+v2_Command_line_parameter ; use Win-R or a cmd window to pass command line params to the script
+
 v2_A_Cursor ;   Report cursor type when you click the mouse working code
 
 v2_Format ;   Format working code
