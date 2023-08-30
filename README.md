@@ -25,6 +25,8 @@ v2_msgbox_timeout.ahk ;  msgbox closes in 2 seconds working code
 
 v2_sort.ahk ;  sort working code
 
+v2_store_notes_in_your_script.ahk ; store notes in your script you can look at while it is running
+
 v2_tabbing_for_acceleration_keys.ahk ;  TIC + Numpad Number to tab that number of times working code
 
 v2_variadic_function_concatenate_words.ahk ;  function without a fixed number of parameters working code
