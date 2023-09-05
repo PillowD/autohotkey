@@ -1,5 +1,8 @@
 # autohotkey
 Autohotkey .ahk v2 simple code examples
+;  simple code examples that work the first time
+;  no library includes (nothing wrong with them, but it's something else to read)
+;  read the comments
 
 v2_A_Cursor ;   Report cursor type when you click the mouse working code
 
