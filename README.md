@@ -5,11 +5,13 @@ v2_A_Cursor ;   Report cursor type when you click the mouse working code
 
 v2_Command_line_parameter ; use Win-R or a cmd window to pass command line params to the script working code
 
-V2_chrome_winmove ; demo of winmaximise, winminimize, winmove and winrestore on a chrome window working code
+V2_Chrome_winmove ; demo of winmaximise, winminimize, winmove and winrestore on a chrome window working code
 
 v2_Format ;   Format working code
 
-v2_if.ahk ;    IF working code
+v2_IF.ahk ;    IF working code
+
+v2_IF - Winexist and ! ;	If - Winexist and !
 
 v2_inline_ini.ahk ;   save ini values inside the script working code
 
