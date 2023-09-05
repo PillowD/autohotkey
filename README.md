@@ -1,11 +1,11 @@
 # autohotkey
 Autohotkey .ahk v2 simple code examples
 
-1  simple code examples that work the first time
+1    simple code examples that work the first time
 
-2  no library includes (nothing wrong with them, but it's something else to read)
+2    no library includes (nothing wrong with them, but all the code is now in one spot)
 
-3  read the comments
+3    read the comments
 
 v2_A_Cursor ;   Report cursor type when you click the mouse working code
 
