@@ -1,6 +1,6 @@
 # autohotkey
 Autohotkey .ahk v2 simple code examples
-  simple code examples that work the first time
+  <p>simple code examples that work the first time
   no library includes (nothing wrong with them, but it's something else to read)
   read the comments
 
