@@ -3,9 +3,11 @@ Autohotkey .ahk v2 simple code examples
 
 1    simple code examples that work the first time
 
-2    no library includes (nothing wrong with them, but all the code is now in one spot)
+2    no library includes (nothing wrong with them, but all the code is now right in front of you)
 
 3    read the comments
+
+4    be brief
 
 v2_A_Cursor ;   Report cursor type when you click the mouse working code
 
