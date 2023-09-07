@@ -29,6 +29,8 @@ v2_loop_parse_text.ahk ; use loop parse on a sample text working code
 
 v2_macropad.ahk ;   turn an external 10key pad into a macropad working code
 
+v2_Msgbox errors when using an array.ahk ;  Msgbox errors when using an array
+
 v2_msgbox_timeout.ahk ;  msgbox closes in 2 seconds working code
 
 v2_sort.ahk ;  sort working code
