@@ -19,7 +19,7 @@ v2_Format ;   Format working code
 
 v2_IF.ahk ;    IF working code
 
-v2_IF - Winexist and ! ;	If - Winexist and !
+v2_IF - Winexist and !.ahk ;	If - Winexist and !
 
 v2_inline_ini.ahk ;   save ini values inside the script working code
 
@@ -32,6 +32,8 @@ v2_loop_parse_text.ahk ; use loop parse on a sample text working code
 v2_macropad.ahk ;   turn an external 10key pad into a macropad working code
 
 v2_Msgbox errors when using an array.ahk ;  Msgbox errors when using an array
+
+v2_msgbox for object keys values and properties ; msgbox for object keys, values and properties
 
 v2_msgbox_timeout.ahk ;  msgbox closes in 2 seconds working code
 
