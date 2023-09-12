@@ -1,0 +1,74 @@
+;	v2_simple regexreplace working code
+#Requires AutoHotkey v2.0
+#SingleInstance Force
+;   
+
+example_line_continued_variable :=
+"
+(
+    Continuation section: This method should be used to merge a large number of lines or when the lines are not suitable for the other methods. Although this method is especially useful for auto-replace hotstrings, it can also be used with any expression. For example:
+
+    ; EXAMPLE #1:
+    Var := "
+    (
+    A line of text.
+    By default, the hard carriage return (Enter) between the previous line and this one will be stored.
+        This line is indented with a tab; by default, that tab will also be stored.
+    Additionally, "quote marks" are automatically escaped when appropriate.
+    
+)" ; the close paren and close quote can be on the last line by themselves
+
+a := ;   a is just some characters from a file
+" ; must be on its own line
+( ; must be on its own line
+	J!C:\_PCB\Extract\Wed Jul 09 12:33:32 2008!-1.748!-2.000!15.252!9.000!0.001!inches!40387-401_A!60.800000 mil!6!UP TO DATE!
+	S!C1!IC!!!!!PACKAGE!SM0805!NO!0.000!4.472!1.400!
+	S!C18!IC!!!!!PACKAGE!SM0805!NO!270.000!5.315!0.990!
+	S!C16!IC!!!!!PACKAGE!SM0805!NO!90.000!4.797!0.970!
+	S!C21!IC!!!!!PACKAGE!SM0805!NO!180.000!0.567!0.660!
+	S!C3!IC!!!!!PACKAGE!SM0805!NO!180.000!4.892!1.390!
+	S!C30!IC!!!!!PACKAGE!SM0805!NO!270.000!2.947!0.450!
+	S!C36!IC!!!!!PACKAGE!SM0805!YES!90.000!1.102!0.945!
+	S!C37!IC!!!!!PACKAGE!SM0805!YES!90.000!3.182!0.930!
+	S!C38!IC!!!!!PACKAGE!SM0805!YES!90.000!3.177!0.760!
+	S!C39!IC!!!!!PACKAGE!SM0805!YES!90.000!0.815!0.650!
+	S!C40!IC!!!!!PACKAGE!SM0805!YES!90.000!2.892!0.615!
+	S!C7!IC!!!!!PACKAGE!SM0805!NO!180.000!0.667!1.205!
+	S!C8!IC!!!!!PACKAGE!SM0805!NO!180.000!2.852!1.205!
+)" ; has to be on a line by itself but can be both of them in the right order
+;  
+b:= ""  ;   set b to empty 
+;   RegExReplace
+;   Replaces occurrences of a pattern (regular expression) inside a string.
+;   NewStr := RegExReplace(Haystack, NeedleRegEx [, Replacement, &OutputVarCount, Limit, StartingPos])
+;   haystack will be variable a
+;   newstr will be variable b
+;   NeedleRegex can be regex or ascii  (you could change ! to \x21 and it would work)
+;   replacement needle can only be regular characters, "" for remove character A_Tab or A_Space
+;   
+msgbox(a,,"T2")
+b := RegExReplace(a,"!","") ; delete all the !
+MsgBox(b,,"T2")
+
+msgbox(a,,"T2")
+b := RegExReplace(a,"!",A_Space) ; replace all the ! with spaces
+MsgBox(b,,"T2")
+
+msgbox(a,,"T2")
+b := RegExReplace(a,"GE","GE" A_Tab) ; replace all the GE with GE and a tab
+MsgBox(b,,"T2")
+
+msgbox(a,,"T2")
+b := RegExReplace(a,".",A_Tab) ; replace all periods with tabs ; empty msgbox becase . means everything in regex
+MsgBox(b,,"T2")
+
+msgbox(a,,"T2")
+b := RegExReplace(a,"\.",A_Tab) ; you can escape a period with a backslash in front of it, then it becomes a period again
+MsgBox(b,,"T2")
+/*
+Most characters like abc123 can be used literally inside a regular expression. However, any of the characters in the 
+set \.*?+[{|()^$ must be preceded by a backslash to be seen as literal. For example, \. is a literal period
+*/
+
+Esc::ExitApp
+ExitApp
