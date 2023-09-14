@@ -47,4 +47,6 @@ v2_store_notes_in_your_script.ahk ;   store notes in your script you can look at
 
 v2_tabbing_for_acceleration_keys.ahk ;    TIC + Numpad Number to tab that number of times working code
 
+v2_type for string function array and object.ahk ; use type to see what class name is
+
 v2_variadic_function_concatenate_words.ahk ;    function without a fixed number of parameters working code
