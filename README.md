@@ -39,6 +39,8 @@ v2_msgbox for object keys values and properties ;   msgbox for object keys, valu
 
 v2_msgbox_timeout.ahk ;    msgbox closes in 2 seconds working code
 
+v2_regexmatch as an object.ahk  ; regexmatch object working code
+
 v2_simple regexreplace working code ;  replace characters working code
 
 v2_sort.ahk ;    sort working code
