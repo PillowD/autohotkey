@@ -11,7 +11,7 @@ Autohotkey .ahk v2 simple code examples
 
 v2_A_Cursor ;   Report cursor type when you click the mouse working code
 
-v2_ByRef_and_Deref.ahk  ;    Referencing and Dereferencing a variable working coce
+v2_ByRef_and_Deref.ahk  ;    Referencing and Dereferencing a variable working code
 
 v2_Command_line_parameter ;   use Win-R or a cmd window to pass command line params to the script working code
 
