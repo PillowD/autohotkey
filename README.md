@@ -19,15 +19,17 @@ v2_Continuation lines working code ; how to make multiple line variables working
 
 V2_Chrome_winmove ;   demo of winmaximise, winminimize, winmove and winrestore on a chrome window working code
 
-v2_Format ;   Format working code
+v2_format ;   Format working code
 
-v2_IF.ahk ;    IF working code
+v2_iF.ahk ;    IF working code
 
-v2_IF - Winexist and !.ahk ;	  If with Winexist and !Winexist working code
+v2_iF - Winexist and !.ahk ;	  If with Winexist and !Winexist working code
 
-v2_Inline_ini.ahk ;   save ini values inside the script working code
+v2_inline_ini.ahk ;   save ini values inside the script working code
 
-v2_Inputhook.ahk ;   inputhook working code
+v2_inputhook.ahk ;   inputhook working code
+
+v2_is functions.ahk : "is a variable this..."
 
 v2_Keyboard history ;  keyhistory working code
 
