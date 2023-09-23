@@ -9,6 +9,12 @@ Autohotkey .ahk v2 simple code examples
 
 4)    be brief
 
+v2_1 of 3_a function that does not throw an error ;  function that does not throw an error working code
+
+v2_2 of 3_a function that thows an error ;  function that thows an error working code
+
+v2_3 of 3_a function that try-catches an error ; function that try-catches an error
+
 v2_A_Cursor ;   Report cursor type when you click the mouse working code
 
 v2_ByRef_and_Deref.ahk  ;    Referencing and Dereferencing a variable working code
