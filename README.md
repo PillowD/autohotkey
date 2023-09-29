@@ -49,6 +49,8 @@ v2_msgbox for object keys values and properties ;   msgbox for object keys, valu
 
 v2_msgbox_timeout.ahk ;    msgbox closes in 2 seconds working code
 
+v2_ord to see character codes of a string.ahk ; see character codes.  Usefull to tell non printing characters apear like tabs and spaces working code
+
 v2_regexmatch as an object.ahk  ; regexmatch object working code
 
 v2_simple regexreplace working code ;  replace characters working code
