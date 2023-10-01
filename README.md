@@ -13,7 +13,7 @@ v2_1 of 3_a function that does not throw an error ;  function that does not thro
 
 v2_2 of 3_a function that thows an error ;  function that thows an error working code
 
-v2_3 of 3_a function that try-catches an error ; function that try-catches an error
+v2_3 of 3_a function that try-catches an error ; function that try-catches an error working code
 
 v2_A_Cursor ;   Report cursor type when you click the mouse working code
 
@@ -35,7 +35,7 @@ v2_inline_ini.ahk ;   save ini values inside the script working code
 
 v2_inputhook.ahk ;   inputhook working code
 
-v2_is functions.ahk : "is a variable this..."
+v2_is functions.ahk : "is a variable this..." working code
 
 v2_Keyboard history ;  keyhistory working code
 
@@ -63,6 +63,6 @@ v2_store_notes_in_your_script.ahk ;   store notes in your script you can look at
 
 v2_tabbing_for_acceleration_keys.ahk ;    TIC + Numpad Number to tab that number of times working code
 
-v2_type for string function array and object.ahk ; use type to see what class name is
+v2_type for string function array and object.ahk ; use type to see what class name is working code
 
 v2_variadic_function_concatenate_words.ahk ;    function without a fixed number of parameters working code
