@@ -23,7 +23,9 @@ v2_Command_line_parameter ;   use Win-R or a cmd window to pass command line par
 
 v2_Continuation lines working code ; how to make multiple line variables working code
 
-V2_Chrome_winmove ;   demo of winmaximise, winminimize, winmove and winrestore on a chrome window working code
+v2_Chrome_winmove ;   demo of winmaximise, winminimize, winmove and winrestore on a chrome window working code
+
+v2_FileGetShortcut ; Demo of getting parameters from filegetshortcut working code
 
 v2_format ;   Format working code
 
