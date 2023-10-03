@@ -1,7 +1,8 @@
 ;	v2_winmove resizing and moving folders 
 #Requires AutoHotkey v2.0
 #SingleInstance Force
-
+;  you can either create these folder or pick 4 others and change the script
+;  don't forget you name is probably not front
 run "C:\Users\front\Desktop\Mr Brady"
 winwaitactive "Mr Brady"
 sleep 2000 ;
