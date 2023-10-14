@@ -21,7 +21,6 @@ sleep 2000 ;
 WinMove(500,500,400,500,"Greg")
 sleep 2000 ;
 
-
 run "C:\Users\front\Desktop\Marsha"
 winwaitactive "Marsha"
 sleep 2000 ;
@@ -39,7 +38,7 @@ Esc::ExitApp
 ExitApp
 /*
 The Sleep 2000s are un-necessary, they just slow down the
-script to make trouble shooting easier
+script to make trouble shooting easier.  Comment them out or delete them.
 
 This is on on a single 1920 x 1080 monitor.  If you have a multi
 monitor desktop, you can temporarily set the desktop to 
