@@ -1,3 +1,4 @@
+; variadic function working code
 #Requires AutoHotkey v2.0
 #SingleInstance Force
 ;   When defining a function, write an asterisk after the final parameter to mark the function as variadic, allowing it to receive a variable number of parameters
