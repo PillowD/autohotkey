@@ -1,4 +1,5 @@
-;       TIC + Numpad Number to tab that number of times
+;  TIC + Numpad Number to tab that number of times
+;  (tic is the key next to number 1 in the top row)
 #SingleInstance Force
 #Requires Autohotkey v2.0
 ;
