@@ -1,4 +1,4 @@
-;	V2_square array
+;	V2_square array how to fill and read from an array
 #Requires AutoHotkey v2.0
 #SingleInstance Force
 ;
