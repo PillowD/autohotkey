@@ -1,4 +1,5 @@
 ;   store notes in your script you can look at while it is running
+;    tic and g activates this one.
 #Requires AutoHotkey v2.0
 #SingleInstance Force
 ;   
