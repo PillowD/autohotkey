@@ -1,4 +1,4 @@
-;   Sort working code
+;  Sort a string of comma seperated letters working code
 #Requires AutoHotkey v2.0
 #SingleInstance Force
 t := "z,b,c,d,e,f,g,h"
@@ -17,3 +17,4 @@ SortedString := Sort(t, "Random D,") ; d,b,c,z,e,f,g,h
 msgbox sortedstring,,"T2"
 
 Esc::Exitapp
+ExitApp
