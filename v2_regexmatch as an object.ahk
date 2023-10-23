@@ -1,4 +1,5 @@
-;   regexmatch as an object
+;    regexmatch as an object
+;    examples of .len .count correct brackets etc.
 #Requires AutoHotkey v2.0
 #Singleinstance Force
 
