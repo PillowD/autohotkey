@@ -66,8 +66,8 @@ msgbox(a,,"T2")
 b := RegExReplace(a,"\.",A_Tab) ; you can escape a period with a backslash in front of it, then it becomes a period again
 MsgBox(b,,"T2")
 /*
-Most characters like abc123 can be used literally inside a regular expression. However, any of the characters in the 
-set \.*?+[{|()^$ must be preceded by a backslash to be seen as literal. For example, \. is a literal period
+Most characters like abc123 can be used literally inside a regular expression. However, any of the characters in  
+the set \.*?+[{|()^$ must be preceded by a backslash to be seen as literal. For example, \. is a literal period
 */
 
 Esc::ExitApp
