@@ -1,4 +1,5 @@
 ;   v2_ord to see character codes of a string
+;   uncomment 1 of the b's at at a time to see how different ones parse
 #Requires AutoHotkey v2.0
 #SingleInstance Force
 b := "te		st" ; test with tabs 
