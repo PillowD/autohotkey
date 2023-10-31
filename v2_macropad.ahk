@@ -1,5 +1,5 @@
 ;   turn an external 10key pad into a macropad
-;
+;    amazon link in the comments below.  $20
 #SingleInstance Force
 #Requires Autohotkey v2.0
 ;   press and release the calculator key, then 0 or 1 or 2
