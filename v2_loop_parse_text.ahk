@@ -1,3 +1,4 @@
+;    How to pull some characters out of a random string of text
 #Requires AutoHotkey v2.0
 #SingleInstance Force
 ;
@@ -17,6 +18,7 @@ loop parse workingtext ; every letter H o m e S
 
 Esc::ExitApp
 ExitApp
+
 /*  The sample text is stored in-line to make it easier to see how it works
 To see hidden characters try pasting your text at regex101 dot com
 [SampleText]
