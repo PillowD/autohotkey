@@ -1,4 +1,4 @@
-;   a function that throws an error
+;   a function that does not throw an error
 #Requires AutoHotkey v2.0
 #SingleInstance Force
 ;
