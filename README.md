@@ -65,7 +65,9 @@ v2_sort.ahk ;    sort working code
 
 v2_square array.ahk ; put a variable into an array and read it out working code
 
-v2_store_notes_in_your_script.ahk ;   store notes in your script you can look at while it is running working code
+v2_store_notes_in_your_script.ahk ;   store notes in your script you can look at it while it is running working code
+
+v2_store_variables_as_comments.ah  ; using variables to store comments so you can look at it while it is running working code
 
 v2_tabbing_for_acceleration_keys.ahk ;    TIC + Numpad Number to tab that number of times working code
 
