@@ -57,6 +57,8 @@ v2_ord to see character codes of a string.ahk ; see character codes.  Usefull to
 
 v2_regexmatch as an object.ahk  ; regexmatch object working code
 
+v2_run_notepad_with_ComObject.ahk  ; open notepad with a ComObject and a function
+
 v2_simple_log_file.ahk ; create a simple log file for your script
 
 v2_simple regexreplace working code ;  replace characters working code
