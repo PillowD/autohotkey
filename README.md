@@ -75,6 +75,8 @@ v2_tabbing_for_acceleration_keys.ahk ;    TIC + Numpad Number to tab that number
 
 v2_type for string function array and object.ahk ; use type to see what class name is working code
 
-v2_variadic_function_concatenate_words.ahk ;    function without a fixed number of parameters working code
+v2_variadic_function_concatenate_words.ahk ;  function without a fixed number of parameters working code
+
+v2_vercompare_two strings.ahk ;  compare two strings to see if they match.  0 = match, -1 = no match
 
 v2_winmove resizing and moving folders ; working code
