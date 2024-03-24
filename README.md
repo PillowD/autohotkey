@@ -51,6 +51,8 @@ v2_msgbox for object keys values and properties ;   msgbox for object keys, valu
 
 v2_msgbox_timeout.ahk ;    msgbox closes in 2 seconds working code
 
+v2_notify.ahk ;  a notification function demonstrating variables as comments
+
 v2_one-liner-simple.ahk ;   sometimes you just one run command.  It's also a good way to practice AHK
 
 v2_ord to see character codes of a string.ahk ; see character codes.  Usefull to tell non printing characters apear like tabs and spaces working code
